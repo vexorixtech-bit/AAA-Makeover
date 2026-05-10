@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vexorixtech-bit.github.io/AAA-Makeover/sitemap.xml

@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const title = item.querySelector('.gallery-title').textContent;
         const category = item.querySelector('.gallery-category').textContent;
 
-        lightboxImg.src = img.src.replace('w=500&h=600', 'w=1200&h=900');
+        lightboxImg.src = img.src;
         lightboxImg.alt = img.alt;
         lightboxTitle.textContent = title;
         lightboxCategory.textContent = category;
